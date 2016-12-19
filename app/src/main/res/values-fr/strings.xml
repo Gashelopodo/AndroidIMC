@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ma masse corporelle</string>
+    <string name="boton_calcular">CALCULER</string>
+    <string name="buttonAceptar">Accepter</string>
+    <string name="description_imc">L\'indice de masse corporelle (IMC) est une mesure d\'association entre la masse et la taille d\'un individu conçu par le statisticien belge Adolphe Quetelet, donc aussi appelé indice de Quetelet.</string>
+    <string name="introduce_altura">Entrez votre taille (cm)</string>
+    <string name="introduce_peso">Entrez votre poids (kg)</string>
+    <string name="messageDialog">Vous devez entrer votre poids et de la hauteur</string>
+    <string name="titleCalculoIMC">Le calcul de votre IMC est:</string>
+    <string name="titleDialog">Il y a un problème</string>
+    <string name="titleIMC">Ma masse corporelle?</string>
+    <string name="titleResultadoIMC">Le résultat jette vous avez:</string>
+</resources>

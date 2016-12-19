@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mi Masa Corporal</string>
+    <string name="description_imc">El índice de masa corporal (IMC) es una medida de asociación entre la masa y la talla de un individuo ideada por el estadístico belga Adolphe Quetelet, por lo que también se conoce como índice de Quetelet.</string>
+    <string name="titleIMC">¿Mi masa corporal?</string>
+    <string name="introduce_peso">Introduce tu peso (Kg)</string>
+    <string name="introduce_altura">Introduce tu estatura (cm)</string>
+    <string name="boton_calcular">CALCULAR</string>
+    <string name="titleCalculoIMC">El cálculo de tu indice de masa corporal es: </string>
+    <string name="titleResultadoIMC">El resultado arroja que tienes: </string>
+    <string name="titleDialog">Hay un problema</string>
+    <string name="messageDialog">Debes introducir tu peso y altura</string>
+    <string name="buttonAceptar">Aceptar</string>
+    <string name="desnutricion">Desnutrición</string>
+    <string name="bajo_peso">Bajo peso</string>
+    <string name="peso_normal">Peso normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obeso">Obeso</string>
+
+</resources>

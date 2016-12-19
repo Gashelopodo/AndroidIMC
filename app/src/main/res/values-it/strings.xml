@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">la mia massa corporea</string>
+    <string name="boton_calcular">CALCOLARE</string>
+    <string name="buttonAceptar">Accettare</string>
+    <string name="introduce_altura">Inserisci la tua altezza (cm)</string>
+    <string name="description_imc">L\'indice di massa corporea (BMI) è una misura di associazione tra la massa e le dimensioni di un individuo ideato dallo statistico belga Adolphe Quetelet, in modo noto anche come indice di Quetelet.</string>
+    <string name="introduce_peso">Inserire il proprio peso (kg)</string>
+    <string name="messageDialog">È necessario inserire il peso e l\'altezza</string>
+    <string name="titleCalculoIMC">Il calcolo del BMI è:</string>
+    <string name="titleDialog">C\'è un problema</string>
+    <string name="titleIMC">Il mio corpo di massa?</string>
+    <string name="titleResultadoIMC">Il risultato getta si ha:</string>
+</resources>
