@@ -11,4 +11,9 @@
     <string name="titleDialog">C\'è un problema</string>
     <string name="titleIMC">Il mio corpo di massa?</string>
     <string name="titleResultadoIMC">Il risultato getta si ha:</string>
+    <string name="desnutricion">Denutrizione</string>
+    <string name="bajo_peso">Sottopeso</string>
+    <string name="obeso">Obeso</string>
+    <string name="peso_normal">Peso normale</string>
+    <string name="sobrepeso">Sovrappeso</string>
 </resources>

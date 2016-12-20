@@ -11,4 +11,9 @@
     <string name="titleDialog">Il y a un problème</string>
     <string name="titleIMC">Ma masse corporelle?</string>
     <string name="titleResultadoIMC">Le résultat jette vous avez:</string>
+    <string name="desnutricion">Sous-alimentation</string>
+    <string name="bajo_peso">Insuffisance pondérale</string>
+    <string name="obeso">Obèse</string>
+    <string name="peso_normal">Poids normal</string>
+    <string name="sobrepeso">Embonpoint</string>
 </resources>

@@ -32,13 +32,14 @@ public class ListenerButton implements View.OnClickListener {
         String peso = ((EditText)activity.findViewById(R.id.inputPeso)).getText().toString();
         String altura = ((EditText)activity.findViewById(R.id.inputAltura)).getText().toString();
 
+
         // comprobamos que hay datos
-        if(peso.matches("") && altura.matches("")){
+        if(peso.matches("") || altura.matches("")){
             Log.d(getClass().getCanonicalName(), "No has introducido nada");
             new AlertDialog.Builder(ct)
-                .setTitle(activity.getString(R.string.titleDialog))
-                .setMessage(activity.getString(R.string.messageDialog))
-                .setPositiveButton(activity.getString(R.string.buttonAceptar), null)
+                .setTitle(ct.getResources().getString(R.string.titleDialog))
+                .setMessage(ct.getResources().getString(R.string.messageDialog))
+                .setPositiveButton(ct.getResources().getString(R.string.buttonAceptar), null)
                 .show();
         }else{
             // intent y pasamos valores a nueva actividad
