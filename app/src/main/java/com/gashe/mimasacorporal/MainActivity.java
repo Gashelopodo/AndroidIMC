@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListenerButton listenerButton = new ListenerButton(this);
+        ListenerButton listenerButton = new ListenerButton(this, "buttonCalculo");
         Button button = (Button)findViewById(R.id.buttonCalcularIMC);
         button.setOnClickListener(listenerButton);
 

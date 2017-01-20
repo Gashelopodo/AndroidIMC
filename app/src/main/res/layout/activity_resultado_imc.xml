@@ -68,4 +68,20 @@
         android:textSize="40sp"
         android:textAlignment="center"/>
 
+    <TextView
+        android:text="Más Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/masInfo"
+        android:layout_below="@+id/resultadoTexto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/popuplayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>

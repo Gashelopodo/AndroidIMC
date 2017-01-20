@@ -16,4 +16,5 @@
     <string name="obeso">Obèse</string>
     <string name="peso_normal">Poids normal</string>
     <string name="sobrepeso">Embonpoint</string>
+    <string name="titleTablaComparativa">TABLA COMPARATIVA IMC</string>
 </resources>

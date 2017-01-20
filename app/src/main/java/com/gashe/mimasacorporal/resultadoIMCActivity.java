@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class resultadoIMCActivity extends AppCompatActivity {
@@ -27,6 +28,11 @@ public class resultadoIMCActivity extends AppCompatActivity {
         calculoIMC.setText(IMC[0]);
         TextView calculoIMCtexto = (TextView)findViewById(R.id.resultadoTexto);
         calculoIMCtexto.setText(IMC[1]);
+
+        // escuchamos boton mas info
+        ListenerButton listenerButton = new ListenerButton(this, "info");
+        TextView button = (TextView)findViewById(R.id.masInfo);
+        button.setOnClickListener(listenerButton);
 
     }
 }
