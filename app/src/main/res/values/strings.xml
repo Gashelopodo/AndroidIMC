@@ -16,5 +16,6 @@
     <string name="sobrepeso">Sobrepeso</string>
     <string name="obeso">Obeso</string>
     <string name="titleTablaComparativa">TABLA COMPARATIVA IMC</string>
+    <string name="error_login">Los datos introducidos no son correctos</string>
 
 </resources>

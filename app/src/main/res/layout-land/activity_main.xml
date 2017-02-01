@@ -10,66 +10,67 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.gashe.mimasacorporal.MainActivity">
 
-    <TextView
-        android:text="@string/description_imc"
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/descriptionMasaCorporal"
+        android:inputType="textPersonName"
+        android:ems="10"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="18sp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:id="@+id/myUser" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="47dp"
+        android:id="@+id/myPassword"
+        android:layout_below="@+id/myUser"
+        android:layout_alignLeft="@+id/myUser"
+        android:layout_alignStart="@+id/myUser" />
 
     <TextView
-        android:text="@string/titleIMC"
+        android:text="USUARIO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/descriptionMasaCorporal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="21dp"
-        android:id="@+id/titleMasaCorporal"
-        android:textStyle="normal|bold"
-        android:textSize="24sp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:layout_below="@+id/titleMasaCorporal"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="14dp"
-        android:id="@+id/inputPeso"
-        android:hint="@string/introduce_peso"
-        android:layout_toStartOf="@+id/inputAltura"
-        android:layout_alignRight="@+id/titleMasaCorporal"
-        android:layout_alignEnd="@+id/titleMasaCorporal" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:id="@+id/inputAltura"
-        android:hint="@string/introduce_altura"
-        android:layout_alignBaseline="@+id/inputPeso"
-        android:layout_alignBottom="@+id/inputPeso"
-        android:layout_toRightOf="@+id/titleMasaCorporal"
-        android:layout_toEndOf="@+id/titleMasaCorporal"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp" />
+        android:layout_above="@+id/myPassword"
+        android:layout_alignLeft="@+id/myUser"
+        android:layout_alignStart="@+id/myUser"
+        android:layout_marginBottom="48dp"
+        android:id="@+id/textView2" />
 
     <Button
-        android:text="@string/boton_calcular"
+        android:text="REGISTRAR"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonRegister"
+        android:layout_alignBaseline="@+id/buttonLogin"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_alignRight="@+id/myPassword"
+        android:layout_alignEnd="@+id/myPassword" />
+
+    <Button
+        android:text="ACCEDER"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/myPassword"
+        android:layout_alignLeft="@+id/myPassword"
+        android:layout_alignStart="@+id/myPassword"
+        />
+
+    <TextView
+        android:text="CONTRASEÑA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonCalcularIMC"
-        android:layout_alignBaseline="@+id/inputAltura"
-        android:layout_alignBottom="@+id/inputAltura"
-        android:layout_toRightOf="@+id/inputAltura"
-        android:layout_toEndOf="@+id/inputAltura"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp" />
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/myUser"
+        android:layout_alignLeft="@+id/myPassword"
+        android:layout_alignStart="@+id/myPassword" />
+
+
 </RelativeLayout>

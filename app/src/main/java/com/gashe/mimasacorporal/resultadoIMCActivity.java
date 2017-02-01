@@ -30,7 +30,7 @@ public class resultadoIMCActivity extends AppCompatActivity {
         calculoIMCtexto.setText(IMC[1]);
 
         // escuchamos boton mas info
-        ListenerButton listenerButton = new ListenerButton(this, "info");
+        ListenerButton listenerButton = new ListenerButton(this);
         TextView button = (TextView)findViewById(R.id.masInfo);
         button.setOnClickListener(listenerButton);
 
