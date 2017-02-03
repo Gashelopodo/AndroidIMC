@@ -33,7 +33,8 @@ public class consultasDataBase extends SQLiteOpenHelper {
 
     public void registrarUser(User user){
         SQLiteDatabase query = this.getWritableDatabase();
-        query.execSQL("INSERT INTO users (user, pass) VALUES ('"+user.getUsuario()+"', '"+user.getPass()+"') ");
+        Utils utils = new Utils();
+        query.execSQL("INSERT INTO users (user, pass) VALUES ('"+utils.codifica(user.getUsuario())+"', '"+utils.codifica(user.getPass())+"') ");
         query.close();
     }
 
@@ -46,8 +47,8 @@ public class consultasDataBase extends SQLiteOpenHelper {
     public boolean checkLogin(User user){
         boolean bool;
         SQLiteDatabase query = this.getReadableDatabase();
-
-        Cursor cursor = query.rawQuery("SELECT * FROM users WHERE user = '"+user.getUsuario()+"' AND pass = '"+user.getPass()+"' ", null);
+        Utils utils = new Utils();
+        Cursor cursor = query.rawQuery("SELECT * FROM users WHERE user = '"+utils.codifica(user.getUsuario())+"' AND pass = '"+utils.codifica(user.getPass())+"' ", null);
 
         if(cursor != null && cursor.getCount() > 0) bool = true;
         else bool = false;

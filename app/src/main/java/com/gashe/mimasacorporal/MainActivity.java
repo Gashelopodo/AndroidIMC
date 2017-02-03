@@ -45,13 +45,13 @@ public class MainActivity extends AppCompatActivity {
             editor.commit();
         }
 
-        //consultasDataBase query = new consultasDataBase(this, "imcDB", null, 1);
+        consultasDataBase query = new consultasDataBase(this, "imcDB", null, 1);
         //query.vaciarTabla();
 
-        /*List<User> userList = query.mostrarUsers();
+        List<User> userList = query.mostrarUsers();
         for (User user : userList) {
             Log.d(getClass().getCanonicalName(), "USER = "+user.getUsuario()+" Pass: "+user.getPass());
-        }*/
+        }
 
 
     }
