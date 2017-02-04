@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        SqlScoutServer.create(this, getPackageName());
+        //SqlScoutServer.create(this, getPackageName());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
 
         consultasDataBase query = new consultasDataBase(this, "imcDB", null, 1);
         //query.vaciarTabla();
-
+        /*
         List<User> userList = query.mostrarUsers();
         for (User user : userList) {
             Log.d(getClass().getCanonicalName(), "USER = "+user.getUsuario()+" Pass: "+user.getPass());
         }
-
+        */
 
     }
 }
