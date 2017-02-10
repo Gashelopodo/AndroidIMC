@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -22,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         //SqlScoutServer.create(this, getPackageName());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Menu
+
 
         ListenerButton listenerButton = new ListenerButton(this);
         Button buttonLogin = (Button)findViewById(R.id.buttonLogin);
@@ -55,4 +60,5 @@ public class MainActivity extends AppCompatActivity {
         */
 
     }
+
 }
